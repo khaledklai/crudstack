@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'backend_ip:8080';
+axios.defaults.baseURL = 'http://backend_ip:8080';
 
 
 ReactDOM.render(
